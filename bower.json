@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-gu",
+  "description": "The most comprehensive collection of stopwords for the gujarati language.",
+  "keywords": [
+    "gujarati",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-gu",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-gu.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}

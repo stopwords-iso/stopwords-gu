@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-gu",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the gujarati language.",
+  "keywords": [
+    "gujarati",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-gu",
+  "bugs": "https://github.com/stopwords-iso/stopwords-gu/issues",
+  "main": "stopwords-gu.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-gu",
+    "test": "npm run build && jsonlint stopwords-gu.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}
